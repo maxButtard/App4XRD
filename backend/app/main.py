@@ -33,6 +33,7 @@ def root():
     return {
         "message": "App4XRD API running"
     }
+
 @app.get("/favicon.ico", include_in_schema=False)
 async def favicon():
     return FileResponse("app/static/favicon.png")

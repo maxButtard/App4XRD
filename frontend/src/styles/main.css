@@ -71,3 +71,18 @@ button:hover {
 
   border-radius: 5px;
 }
+
+.loading-screen {
+
+  height: 100vh;
+
+  display: flex;
+
+  flex-direction: column;
+
+  justify-content: center;
+
+  align-items: center;
+
+  font-family: Arial;
+}
