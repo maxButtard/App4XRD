@@ -24,9 +24,15 @@ async def upload_cif(file: UploadFile = File(...)):
 
     global loaded_structure
 
-    with tempfile.NamedTemporaryFile(delete=False) as tmp:
+    with tempfile.NamedTemporaryFile(
+        delete=False,
+        suffix=".cif"
+    ) as tmp:
 
         shutil.copyfileobj(file.file, tmp)
+
+        # IMPORTANT
+        tmp.flush()
 
         loaded_structure = Structure.from_file(tmp.name)
 
@@ -53,7 +59,7 @@ async def update_structure(params: LatticeParams):
 @router.post("/upload-xy")
 async def upload_xy(file: UploadFile = File(...)):
 
-    data = np.loadtxt(file.file)
+    data = np.loadtxt(file.file,skiprows=1)
 
     x = data[:, 0]
     y = data[:, 1]

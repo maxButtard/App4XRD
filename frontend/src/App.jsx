@@ -16,12 +16,15 @@ export default function App() {
 
       <div className="sidebar">
 
+        <h1>App4XRD</h1>
+
         <UploadPanel
           setSimData={setSimData}
           setExpData={setExpData}
         />
 
         <LatticeControls
+          simData={simData}
           setSimData={setSimData}
         />
 

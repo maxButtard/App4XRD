@@ -1,0 +1,110 @@
+App4XRD/
+├── backend/
+│   ├── app/
+│   │   ├── api/
+│   │   │   └── routes/
+│   │   │       └── xrd.py
+│   │   ├── models/
+│   │   │   └── xrd_models.py
+│   │   ├── services/
+│   │   │   ├── peak_service.py
+│   │   │   └── xrd_service.py
+│   │   └── main.py
+│   └── requirements.txt
+├── frontend/
+│   ├── node_modules/
+│   │   ├── @mapbox/
+│   │   │   ├── geojson-rewind/
+│   │   │   │   └── LICENSE.txt
+│   │   │   ├── jsonlint-lines-primitives/
+│   │   │   │   └── web/
+│   │   │   │       └── jsonlint.html
+│   │   │   ├── mapbox-gl-supported/
+│   │   │   │   ├── diagnostics.html
+│   │   │   │   ├── index.html
+│   │   │   │   └── LICENSE.txt
+│   │   │   ├── tiny-sdf/
+│   │   │   │   ├── debug.html
+│   │   │   │   ├── index.html
+│   │   │   │   └── LICENSE.txt
+│   │   │   └── vector-tile/
+│   │   │       └── LICENSE.txt
+│   │   ├── @maplibre/
+│   │   │   └── maplibre-gl-style-spec/
+│   │   │       └── LICENSE.txt
+│   │   ├── @plotly/
+│   │   │   └── mapbox-gl/
+│   │   │       ├── dist/
+│   │   │       │   └── mapbox-gl.css
+│   │   │       ├── src/
+│   │   │       │   └── css/
+│   │   │       │       └── mapbox-gl.css
+│   │   │       └── LICENSE.txt
+│   │   ├── @webassemblyjs/
+│   │   │   └── leb128/
+│   │   │       └── LICENSE.txt
+│   │   ├── baseline-browser-mapping/
+│   │   │   └── LICENSE.txt
+│   │   ├── chrome-trace-event/
+│   │   │   └── LICENSE.txt
+│   │   ├── cssesc/
+│   │   │   └── LICENSE-MIT.txt
+│   │   ├── glslify/
+│   │   │   └── usage.txt
+│   │   ├── jsesc/
+│   │   │   └── LICENSE-MIT.txt
+│   │   ├── mapbox-gl/
+│   │   │   ├── dist/
+│   │   │   │   └── mapbox-gl.css
+│   │   │   ├── src/
+│   │   │   │   └── css/
+│   │   │   │       └── mapbox-gl.css
+│   │   │   └── LICENSE.txt
+│   │   ├── maplibre-gl/
+│   │   │   ├── dist/
+│   │   │   │   ├── LICENSE.txt
+│   │   │   │   └── maplibre-gl.css
+│   │   │   ├── node_modules/
+│   │   │   │   └── @mapbox/
+│   │   │   │       └── tiny-sdf/
+│   │   │   │           └── LICENSE.txt
+│   │   │   ├── src/
+│   │   │   │   └── css/
+│   │   │   │       └── maplibre-gl.css
+│   │   │   └── LICENSE.txt
+│   │   ├── needle/
+│   │   │   └── license.txt
+│   │   ├── performance-now/
+│   │   │   └── license.txt
+│   │   ├── plotly.js/
+│   │   │   ├── .circleci/
+│   │   │   │   └── download_google_fonts.py
+│   │   │   └── dist/
+│   │   │       ├── plotly-basic.min.js.LICENSE.txt
+│   │   │       ├── plotly-cartesian.min.js.LICENSE.txt
+│   │   │       ├── plotly-finance.min.js.LICENSE.txt
+│   │   │       ├── plotly-geo.min.js.LICENSE.txt
+│   │   │       ├── plotly-gl2d.min.js.LICENSE.txt
+│   │   │       ├── plotly-gl3d.min.js.LICENSE.txt
+│   │   │       ├── plotly-mapbox.min.js.LICENSE.txt
+│   │   │       ├── plotly-strict.min.js.LICENSE.txt
+│   │   │       ├── plotly.min.js.LICENSE.txt
+│   │   │       └── translation-keys.txt
+│   │   ├── polybooljs/
+│   │   │   └── dist/
+│   │   │       └── demo.html
+│   │   ├── rw/
+│   │   │   └── test/
+│   │   │       └── utf8.txt
+│   │   ├── terser/
+│   │   │   └── tools/
+│   │   │       └── props.html
+│   │   └── tslib/
+│   │       ├── CopyrightNotice.txt
+│   │       ├── LICENSE.txt
+│   │       ├── tslib.es6.html
+│   │       └── tslib.html
+│   └── src/
+│       └── styles/
+│           └── main.css
+└── arborescence.txt

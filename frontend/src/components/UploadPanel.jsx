@@ -13,12 +13,12 @@ export default function UploadPanel({
 
     formData.append("file", file)
 
-    const res = await API.post(
+    const response = await API.post(
       "/xrd/upload-cif",
       formData
     )
 
-    setSimData(res.data)
+    setSimData(response.data)
   }
 
   async function uploadXY(event) {
@@ -29,32 +29,42 @@ export default function UploadPanel({
 
     formData.append("file", file)
 
-    const res = await API.post(
+    const response = await API.post(
       "/xrd/upload-xy",
       formData
     )
 
-    setExpData(res.data)
+    setExpData(response.data)
   }
 
   return (
-    <div>
+    <div className="panel">
 
       <h2>Upload Files</h2>
 
-      <input
-        type="file"
-        accept=".cif"
-        onChange={uploadCIF}
-      />
+      <div className="input-group">
 
-      <br /><br />
+        <label>CIF File</label>
 
-      <input
-        type="file"
-        accept=".xy"
-        onChange={uploadXY}
-      />
+        <input
+          type="file"
+          accept=".cif"
+          onChange={uploadCIF}
+        />
+
+      </div>
+
+      <div className="input-group">
+
+        <label>XY File</label>
+
+        <input
+          type="file"
+          accept=".xy"
+          onChange={uploadXY}
+        />
+
+      </div>
 
     </div>
   )
